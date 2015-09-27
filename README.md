@@ -1,5 +1,7 @@
 # Email Subscription form in React
 
+## Using React.js, ES6, and Webpack
+
 This email subscription form makes a post request to a specified endpoint with the following properties as JSON data:
 
 - `first_name`
