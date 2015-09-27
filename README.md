@@ -10,6 +10,8 @@ This email subscription form makes a post request to a specified endpoint with t
 
 This is the client-side for a complementary API that would make a request to the Mandrill API to subscribe the submitted user.
 
+See the demo [here](http://tinacious.github.io/email-subscription-form-react/).
+
 ## Usage
 
 The component supports the following props:
