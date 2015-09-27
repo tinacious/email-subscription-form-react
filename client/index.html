@@ -1,0 +1,111 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>React Webpack</title>
+        <meta name="description" content="Email subscription form built in React.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <script type="text/javascript" src="//use.typekit.net/fcj5mrj.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
+        <link rel="stylesheet" type="text/css" href="http://christinaholly.com/site/templates/css/main.css">
+        <style>
+            /* demo theme styles */
+            .container {
+                max-width: 600px;
+            }
+            .site-header .logo {
+                width: 100%;
+            }
+            .logo span, .logo img {
+                display: block;
+                float: left;
+            }
+            .logo span {
+                padding: 10px 0 0 10px;
+            }
+            .site-header {
+                padding: 5px 0;
+            }
+            @media (max-width: 767px) {
+                .site-header .logo span {
+                    display: block;
+                }
+            }
+
+            /* demo styles */
+            .subscription-form {
+                margin: 25px 0 0;
+            }
+
+            .subscription-form-field-group {
+                margin-bottom: 15px;
+            }
+
+            .subscription-form-field-group label {
+                padding: 3px 0;
+                font-weight: 700;
+                display: block;
+            }
+            .subscription-form-field-group input {
+                width: 230px;
+            }
+
+            .subscription-form-field-group input[type="text"] {}
+
+            .subscription-form-field-group input[type="email"] {}
+
+            .subscription-form-field-group input[type="submit"] {
+                background: #FF1493;
+                color: white;
+                border: 0;
+                font-weight: 700;
+            }
+
+            .subscribe-form-result {
+                margin: 25px 0;
+                padding: 2px 10px;
+                color: white;
+            }
+
+            .subscribe-form-result.error {
+                background: #A03438;
+            }
+
+            .subscribe-form-result.success {
+                background: #48B149;
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <header class="site-header">
+            <div class="container">
+                <div class="logo">
+                    <img src="http://tinaciousdesign.com/images/td-logo.png" alt="Tinacious Design logo" width="50">
+                    <span><b><a href="http://tinaciousdesign.com/">Tinacious Design</a></b> &ndash; demos</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="site-content">
+            <div class="container">
+                <h1>Email Subscription form built in React.js</h1>
+                <p>
+                    This is a demo of the email subscription form built in React.js.
+                </p>
+                <p>
+                    Displays a spinner while the request is being resolved.
+                </p>
+
+                <div id="subscription-form"></div>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="bundle.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/fcj5mrj.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </body>
+</html>
+
