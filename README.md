@@ -43,6 +43,14 @@ To run the server and watch the files, run:
 gulp
 ```
 
+### Demo
+
+Deploy the demo:
+
+```
+git subtree push --prefix client origin gh-pages
+```
+
 ### Production
 
 To build for production, run:

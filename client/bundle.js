@@ -20659,6 +20659,7 @@
 	                            'Email'
 	                        ),
 	                        _react2['default'].createElement('input', { type: 'email',
+	                            id: 'emailField',
 	                            ref: 'emailField',
 	                            onChange: this.onEmailChanged.bind(this),
 	                            value: this.state.email })
