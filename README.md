@@ -35,4 +35,20 @@ You can use the component in your React project like so:
     buttonTitle='Sign Up!' />
 ```
 
+### Development
+
+To run the server and watch the files, run:
+
+```
+gulp
+```
+
+### Production
+
+To build for production, run:
+
+```
+npm run dist
+```
+
 ![](email-subscription-demo.gif)

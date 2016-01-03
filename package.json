@@ -4,7 +4,7 @@
   "description": "Getting started with React and Webpack",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "dist": "webpack -p --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
