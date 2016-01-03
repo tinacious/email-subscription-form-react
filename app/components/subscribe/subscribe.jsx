@@ -147,6 +147,7 @@ class SubscribeForm extends React.Component {
                     <div className='subscription-form-field-group'>
                         <label htmlFor='emailField'>Email</label>
                         <input type='email'
+                            id='emailField'
                             ref='emailField'
                             onChange={ this.onEmailChanged.bind(this) }
                             value={ this.state.email } />
