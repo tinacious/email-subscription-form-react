@@ -94,7 +94,9 @@ class SubscribeForm extends React.Component {
         $.ajax({
             type: 'POST',
             url: this.props.endpoint,
-            data: data,
+            data: JSON.stringify(data),
+            contentType: 'application/json',
+            dataType: 'json',
             success: (response) => {
                 this.setState({
                     sending    : false,
